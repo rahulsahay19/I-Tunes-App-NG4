@@ -12,7 +12,7 @@ export class ArtistComponent implements OnInit {
   ngOnInit(): void {
     throw new Error("Method not implemented.");
   }
-  private artist: any;
+  artist: any;
   
     constructor(private jsonp: Jsonp,
                 private route: ActivatedRoute) {

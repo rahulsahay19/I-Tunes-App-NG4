@@ -10,9 +10,9 @@ import { SearchService } from '../search.service';
 })
 export class SearchComponent  {
 
-   private loading: boolean = false;
+   loading: boolean = false;
   
-    constructor(private itunes: SearchService,
+    constructor(public itunes: SearchService,
                 private route: ActivatedRoute,
                 private router: Router) {
       this.route.params.subscribe(params => {

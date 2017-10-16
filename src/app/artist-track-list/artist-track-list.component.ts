@@ -11,7 +11,7 @@ export class ArtistTrackListComponent implements OnInit {
   ngOnInit(): void {
     throw new Error("Method not implemented.");
   }
-  private tracks: any[];
+  tracks: any[];
   
     constructor(private jsonp: Jsonp,
                 private route: ActivatedRoute) {
